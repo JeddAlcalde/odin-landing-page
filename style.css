@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #1F2937;
     font-family: "Roboto";
     font-weight: 400;
@@ -6,31 +6,86 @@ body{
 
 .header{
     color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
 }
 
-.main-header{
-    size: 48px;
+.top-head {
+    display: inline-flex;
+    white-space: nowrap;
 }
 
-.head-link{
-    size: 18px;
+.main-header {
+    font-size: 24px;
+    margin-right: 200px;
+    margin-left: 75px;
 }
 
-.information{
+.head-link {
+    font-size: 18px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.main-show {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    height: 400px;
+    width: 400px;
+    margin-left: 75px;
+}
+
+.large-text {
+    font-size: 48px;
+    word-wrap: break-word;
+}
+
+.subtext {
+    font-size: 18px;
+    word-wrap: break-word;
+}
+
+.sign-up {
+    width: 100px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.placeholder-img {
+    display: auto;
+    flex-direction: auto;
+    background-color: grey;
+    height: 280px;
+    width: 400px;
+}
+
+.placeholder-img p {
+    align-self: center;
+}
+
+.information {
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.head-info{
+.head-info {
     size: 36px;
     color: #1F2937;
     font-weight: 1000;
     margin-bottom: 40px;
 }
 
-.images div{
+.images div {
     display: inline-block;
     flex-direction: auto;
     background: white;
@@ -42,7 +97,7 @@ body{
     flex: 1 1 auto;
 }
 
-.captions div{
+.captions div {
     margin-left: 35px;
     margin-right: 35px;
     margin-top: 1px;
@@ -53,7 +108,7 @@ body{
     text-align: center;
 }
 
-.captions div p{
+.captions div p {
     font-size: small;
     word-wrap: break-word;
     align-content: center;
