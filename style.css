@@ -9,10 +9,11 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1 1 auto;
+    align-items: center;
 }
 
 .top-head {
-    display: inline-flex;
+    display: flex;
     white-space: nowrap;
 }
 
