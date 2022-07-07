@@ -114,3 +114,40 @@ body {
     word-wrap: break-word;
     align-content: center;
 }
+
+.inspire {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote {
+    text-align: center;
+}
+
+.quotee {
+    text-align: right;
+}
+
+.footer {
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-text {
+    flex-direction: column;
+}
+
+.closer {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.button-encouragment {
+    color: #F9FAF8;
+}
+
+.footer button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
