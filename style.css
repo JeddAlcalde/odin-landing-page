@@ -27,6 +27,13 @@ body {
     font-size: 18px;
     margin-right: 20px;
     margin-left: 20px;
+    margin-top: 17px;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #F9FAF8;
+    text-decoration: none;
+
 }
 
 .main-show {
@@ -58,22 +65,26 @@ body {
     width: 100px;
     background-color: #3882F6;
     color: #F9FAF8;
+    border-radius: 5px;
+    border-color: #3882F6;
 }
 
 .placeholder-img {
     display: auto;
     flex-direction: auto;
-    background-color: grey;
+    background-color: white;
     height: 280px;
     width: 400px;
 }
 
-.placeholder-img p {
-    align-self: center;
+.dog-img {
+    height: 280px;
+    width: 400px;
+    object-fit: contain;
 }
 
 .information {
-    background-color: white;
+    background-color: #F9FAF8;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -96,6 +107,7 @@ body {
     margin-right: 20px;
     margin-left: 20px;
     flex: 1 1 auto;
+    border-radius: 10px;
 }
 
 .captions div {
@@ -130,24 +142,43 @@ body {
 }
 
 .footer {
+    display: inline-flex;
     flex-direction: row;
     align-items: center;
+    background-color: #3882F6;
+    margin-bottom: 40px;
+    border-radius: 10px;
 }
 
 .footer-text {
     flex-direction: column;
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .closer {
     font-size: 36px;
-    color: #1F2937;
+    color: #F9FAF8;
+    margin-top: 0px;
 }
 
 .button-encouragment {
     color: #F9FAF8;
+    margin-top: -25px;
+    margin-bottom: -5px;
 }
 
 .footer button{
     background-color: #3882F6;
     color: #F9FAF8;
+    margin: 40px;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.latter-background {
+    background-color: #F9FAF8;
+    text-align: center;
 }
